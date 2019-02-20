@@ -43,6 +43,7 @@ body {
 @media (min-width: 800px) {
   .site-nav__item {
     margin-left: 40px;
+    padding-bottom: 0;
   }
 }
 
@@ -213,6 +214,23 @@ body {
 .header2 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
+}
+
+/* NB: This will be hidden from view but still be available to screenreaders
+ http://webaim.org/techniques/css/invisiblecontent/ */
+.u-hidden-visually {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden;
+}
+
+.u-hidden-visually:focus {
+  position:static;
+  width:auto;
+  height:auto;
 }
 
 /* Style all font awesome icons */
