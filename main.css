@@ -6,9 +6,31 @@
   --white: #FFF;
 }
 
+:root {
+    font-size: 100%;
+}
+
+/* Set up a decent box model on the root element */
+html {
+    box-sizing: border-box;
+}
+
+/* Make all elements from the DOM inherit from the parent box-sizing
+   Since `*` has a specificity of 0, it does not override the `html` value
+   making all elements inheriting from the root box-sizing value
+   See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+* {
+    &,
+    &::before,
+    &::after {
+        box-sizing: inherit;
+    }
+}
+
 body {
   font-family:Verdana,sans-serif;
   font-size: 16px;
+  line-height: 1.5rem;
 }
 
 .header {
@@ -264,4 +286,33 @@ body {
 
 .u-padding-bottom--medium {
   padding-bottom: 20px;
+}
+
+
+/* Specific page stuff */
+.hero {
+  background-image: url("hero.jpg");
+  height: 200px;
+  background-position: center;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section2 {
+  background-color: black;
+  color: white;
+}
+
+.para {
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 800px) {
+  .para {
+    width: 600px;
+  }
 }
