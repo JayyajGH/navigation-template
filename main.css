@@ -203,8 +203,9 @@ body {
 }
 
 .footer__contact {
-  width: 100%;
+  width: 90%;
   text-align: left;
+  order: -2;
 }
 
 @media (min-width: 800px) {
@@ -229,8 +230,28 @@ body {
 
 @media (min-width: 800px) {
   .footer__social {
-    width: 40%;
+    width: 35%;
   }
+}
+
+.footer__backtotop {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    font-size: 2em;
+}
+
+@media (min-width: 800px) {
+  .footer__backtotop {
+    order: 0;
+    font-size: 3em;
+  }
+}
+
+.backtotop {
+  font-size: 12px;
+  position: relative;
+  top: -5px;
 }
 
 .social__list {
@@ -276,6 +297,7 @@ body {
 .fa--backtotop {
   text-align: center;
   text-decoration: none;
+  color: var(--black);
 }
 
 .fa--social:hover {
