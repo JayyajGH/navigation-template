@@ -1,0 +1,13 @@
+{
+  "short_name": "",
+  "name": "",
+  "description": "",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": ".",
+  "background_color": "#fff",
+  "theme_color": "#fff"
+}
