@@ -264,7 +264,7 @@ body {
 }
 
 /* Style all font awesome icons */
-.fa {
+.fa--social {
   padding: 5px;
   font-size: 30px;
   text-align: center;
@@ -273,23 +273,25 @@ body {
   border-radius: 5px;
 }
 
-.fa:hover {
+.fa--backtotop {
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa--social:hover {
   opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: var(--white);
+.fa--facebook {
+  color: #3B5998;
 }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: var(--white);
+.fa--twitter {
+  color: #55ACEE;
 }
 
-.fa-linkedin {
-  background: #0077B5;
-  color: var(--white);
+.fa--linkedin {
+  color: #0077B5;
 }
 
 .u-padding-bottom--medium {
