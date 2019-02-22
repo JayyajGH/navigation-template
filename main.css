@@ -120,12 +120,6 @@ body {
   height: 40px;
 }
 
-@media (min-width: 800px) {
-  .logo {
-    height: 50px;
-  }
-}
-
 .site-nav.is-active {
   width: 100%;
   position: fixed;

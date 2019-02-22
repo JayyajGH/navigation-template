@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -77,6 +77,6 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;font-family:Vani;-inkscape-font-specification:'Vani, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:-1.05833328px;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">STASH<tspan
    style="letter-spacing:-1.05833328px;baseline-shift:baseline;fill:#0000ff"
    id="tspan3725"
-   dy="0.56999993">74</tspan></tspan></text>
+   dy="0.69999999">74</tspan></tspan></text>
   </g>
 </svg>
