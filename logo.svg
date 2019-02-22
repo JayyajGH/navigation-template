@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="50.710083mm"
-   height="9.4361162mm"
-   viewBox="0 0 50.710083 9.4361162"
+   width="44.360081mm"
+   height="10.006116mm"
+   viewBox="0 0 44.360081 10.006116"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="-399.20293"
-     inkscape:cy="-14.455992"
+     inkscape:cy="-12.301661"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -66,7 +66,7 @@
            y="151.09111" /></flowRegion><flowPara
          id="flowPara3719" /></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Vani;-inkscape-font-specification:'Vani, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Vani;-inkscape-font-specification:'Vani, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="77.775429"
        y="49.775688"
        id="text3723"><tspan
@@ -74,8 +74,9 @@
          id="tspan3721"
          x="77.775429"
          y="49.775688"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;font-family:Vani;-inkscape-font-specification:'Vani, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332;letter-spacing:-1.05833333px">STASH<tspan
-   style="fill:#0000ff;letter-spacing:-1.05833333px"
-   id="tspan3725">74</tspan></tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;font-family:Vani;-inkscape-font-specification:'Vani, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:-1.05833328px;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">STASH<tspan
+   style="letter-spacing:-1.05833328px;baseline-shift:baseline;fill:#0000ff"
+   id="tspan3725"
+   dy="0.56999993">74</tspan></tspan></text>
   </g>
 </svg>
