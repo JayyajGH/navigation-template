@@ -90,7 +90,12 @@ body {
 }
 
 .nav__text {
-    font-size: 18px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.nav__icon {
+    font-size: 7em;
 }
 
 .fa-home {
@@ -98,7 +103,7 @@ body {
 }
 
 .nav__item:hover .fa-home  {
-  transform: rotate(20deg);
+  font-size: 9em;
   transition: 1s;
 }
 
@@ -107,7 +112,7 @@ body {
 }
 
 .nav__item:hover .fa-tasks  {
-  transform: rotate(20deg);
+  font-size: 9em;
   transition: 1s;
 }
 
@@ -116,7 +121,7 @@ body {
 }
 
 .nav__item:hover .fa-book-open  {
-  transform: rotate(20deg);
+  font-size: 9em;
   transition: 1s;
 }
 
@@ -125,7 +130,7 @@ body {
 }
 
 .nav__item:hover .fa-user  {
-  transform: rotate(20deg);
+  font-size: 9em;
   transition: 1s;
 }
 
