@@ -60,7 +60,9 @@ body {
 }
 
 @media (min-width: 800px) {
-  flex-direction: row;
+  .nav__menu {
+    flex-direction: row;
+  }
 }
 
 .nav__item {
