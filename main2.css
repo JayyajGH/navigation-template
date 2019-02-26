@@ -53,6 +53,22 @@ body {
   margin-bottom: 1rem;
 }
 
+.logo2 {
+  height: 80px;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 50%;
+  right: -120px;
+}
+
+@media (min-width: 800px) {
+  .logo2 {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+  }
+}
+
 .nav__menu {
   min-height: 100%;
   display: flex;
@@ -144,20 +160,20 @@ body {
 }
 
 .nav--projects {
-  background-color: rgba(244, 66, 69, 0.8);
+  background-color: rgba(65, 104, 244, 0.8);
 }
 
 .nav--projects:hover {
-  background-color: rgb(244, 66, 69);
+  background-color: rgb(65, 104, 244);
   transition: 1s;
 }
 
 .nav--about {
-  background-color: rgba(65, 104, 244, 0.8);
+  background-color: rgba(244, 66, 69, 0.8);
 }
 
 .nav--about:hover {
-  background-color: rgb(65, 104, 244);
+  background-color: rgb(244, 66, 69);
   transition: 1s;
 }
 
