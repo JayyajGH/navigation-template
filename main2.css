@@ -103,7 +103,7 @@ body {
 }
 
 .nav__item:hover .fa-home  {
-  font-size: 9em;
+  font-size: 8em;
   transition: 1s;
 }
 
@@ -112,7 +112,7 @@ body {
 }
 
 .nav__item:hover .fa-tasks  {
-  font-size: 9em;
+  font-size: 8em;
   transition: 1s;
 }
 
@@ -121,7 +121,7 @@ body {
 }
 
 .nav__item:hover .fa-book-open  {
-  font-size: 9em;
+  font-size: 8em;
   transition: 1s;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .nav__item:hover .fa-user  {
-  font-size: 9em;
+  font-size: 8em;
   transition: 1s;
 }
 
