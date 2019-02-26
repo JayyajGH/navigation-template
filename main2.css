@@ -107,11 +107,11 @@ body {
   transition: 1s;
 }
 
-.fa-tasks {
+.fa-briefcase {
   transition: 1s;
 }
 
-.nav__item:hover .fa-tasks  {
+.nav__item:hover .fa-briefcase  {
   font-size: 8em;
   transition: 1s;
 }
