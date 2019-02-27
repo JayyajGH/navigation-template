@@ -54,11 +54,11 @@ body {
 }
 
 .logo2 {
-  height: 80px;
+  height: 60px;
   position: absolute;
-  transform: rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
   top: 50%;
-  right: -120px;
+  right: -90px;
 }
 
 @media (min-width: 800px) {
@@ -66,6 +66,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     top: 0;
+    right: -120px;
   }
 }
 
@@ -111,79 +112,109 @@ body {
 }
 
 .nav__icon {
+    font-size: 5em;
+}
+
+@media (min-width: 800px) {
+  .nav__icon {
     font-size: 7em;
+  }
 }
 
 .fa-home {
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .nav__item:hover .fa-home  {
-  font-size: 8em;
-  transition: 1s;
+  font-size: 6em;
+  transition: 0.8s;
+}
+
+@media (min-width: 800px) {
+  .nav__item:hover .fa-home  {
+    font-size: 8em;
+  }
 }
 
 .fa-briefcase {
-  transition: 1s;
+  transition: 0.8s;
 }
 
-.nav__item:hover .fa-briefcase  {
-  font-size: 8em;
-  transition: 1s;
+.nav__item:hover .fa-briefcase {
+  font-size: 6em;
+  transition: 0.8s;
+}
+
+@media (min-width: 800px) {
+  .nav__item:hover .fa-briefcase  {
+      font-size: 8em;
+  }
 }
 
 .fa-book-open {
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .nav__item:hover .fa-book-open  {
-  font-size: 8em;
-  transition: 1s;
+  font-size: 6em;
+  transition: 0.8s;
+}
+
+@media (min-width: 800px) {
+  .nav__item:hover .fa-book-open  {
+    font-size: 8em;
+  }
 }
 
 .fa-user {
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .nav__item:hover .fa-user  {
-  font-size: 8em;
-  transition: 1s;
+  font-size: 6em;
+  transition: 0.8s;
+}
+
+@media (min-width: 800px) {
+  .nav__item:hover .fa-user  {
+    font-size: 8em;
+  }
 }
 
 .nav--home {
-  background-color: rgba(65, 244, 113, 0.8);
+  background-color: rgba(65, 244, 113, 0.7);
 }
 
 .nav--home:hover {
   background-color: rgb(65, 244, 113);
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .nav--projects {
-  background-color: rgba(65, 104, 244, 0.8);
+  background-color: rgba(65, 104, 244, 0.7);
 }
 
 .nav--projects:hover {
   background-color: rgb(65, 104, 244);
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .nav--about {
-  background-color: rgba(244, 66, 69, 0.8);
+  background-color: rgba(244, 66, 69, 0.7);
 }
 
 .nav--about:hover {
   background-color: rgb(244, 66, 69);
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .nav--contact {
-  background-color: rgba(244, 160,65, 0.8);
+  background-color: rgba(244, 160,65, 0.7);
 }
 
 .nav--contact:hover {
   background-color: rgb(244, 160,65);
-  transition: 1s;
+  transition: 0.8s;
 }
 
 html, body, nav, main {
