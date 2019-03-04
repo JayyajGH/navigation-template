@@ -34,8 +34,14 @@ body {
 }
 
 .heading1 {
-  font-size: 80px;
+  font-size: 40px;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 800px) {
+  .heading1 {
+    font-size: 80px;
+  }
 }
 
 .header {
@@ -43,10 +49,11 @@ body {
   margin-bottom: 1rem;
 }
 
-.body {
+.headerblock {
   background-image: url('house.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 800px;
 }
 
 .nav {
@@ -78,4 +85,17 @@ body {
 
 .panel-section {
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .panel-section {
+    flex-direction: row;
+  }
+}
+
+.panel {
+  background-color: lightblue;
+  margin-bottom: 20px;
 }
