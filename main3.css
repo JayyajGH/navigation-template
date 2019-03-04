@@ -34,21 +34,43 @@ body {
 }
 
 .heading1 {
-  font-size: 2.369rem;
+  font-size: 80px;
   margin-bottom: 2rem;
-}
-
-.heading2 {
-  font-size: 1.777rem;
-  margin-bottom: 1rem;
-}
-
-.small-text {
-  font-size: 0.75rem;
-  margin-bottom: 0.5rem;
 }
 
 .header {
   background-color: var(--white);
   margin-bottom: 1rem;
+}
+
+.body {
+  background-image: url('house.jpg');
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__item {
+  padding-left: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.hero {
+  position: absolute;
+  top: 200px;
+  width: 50%;
+  line-height: 5rem;
 }
