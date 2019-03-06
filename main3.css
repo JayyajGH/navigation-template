@@ -53,7 +53,13 @@ body {
   background-image: url('house.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 800px;
+  min-height: 400px;
+}
+
+@media (min-width: 800px) {
+  .headerblock {
+    min-height: 600px;
+  }
 }
 
 .nav {
@@ -78,9 +84,15 @@ body {
 
 .hero {
   position: absolute;
-  top: 200px;
+  top: 75px;
   width: 50%;
   line-height: 5rem;
+}
+
+@media (min-width: 800px) {
+  .hero {
+    top: 150px;
+  }
 }
 
 .panel-section {
@@ -98,4 +110,123 @@ body {
 .panel {
   background-color: lightblue;
   margin-bottom: 20px;
+  padding: 20px;
+}
+
+.panel__title {
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--light-grey);
+  color: var(--black);
+  padding: 2rem 1rem 2rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 800px) {
+  .footer {
+    padding: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+.footer__contact {
+  width: 90%;
+  text-align: left;
+  order: -2;
+}
+
+@media (min-width: 800px) {
+  .footer__contact {
+    width: 60%;
+  }
+}
+
+.contact__list {
+  list-style-type: none;
+}
+
+.contact__item {
+  margin-bottom: 0.6rem;
+  color: var(--dark-grey);
+}
+
+.footer__social {
+  width: 100%;
+  text-align: left;
+}
+
+@media (min-width: 800px) {
+  .footer__social {
+    width: 35%;
+  }
+}
+
+.footer__backtotop {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    font-size: 2em;
+}
+
+@media (min-width: 800px) {
+  .footer__backtotop {
+    order: 0;
+    font-size: 3em;
+  }
+}
+
+.backtotop {
+  font-size: 12px;
+  position: relative;
+  top: -5px;
+}
+
+.social__list {
+  list-style-type: none;
+}
+
+.social__item {
+   display: inline;
+}
+
+.footer__copyright {
+  width: 100%;
+  color: var(--dark-grey);
+}
+
+/* Style all font awesome icons */
+.fa--social {
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 23px;
+  border-radius: 5px;
+}
+
+.fa--backtotop {
+  text-align: center;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.fa--social:hover {
+  opacity: 0.7;
+}
+
+.fa--facebook {
+  color: #3B5998;
+}
+
+.fa--twitter {
+  color: #55ACEE;
+}
+
+.fa--linkedin {
+  color: #0077B5;
 }
