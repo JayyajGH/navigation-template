@@ -1,0 +1,341 @@
+:root {
+  --light-grey: #D3D3D3;
+  --grey: #818181;
+  --dark-grey: #3e3e3e;
+  --black: #000;
+  --white: #FFF;
+}
+
+/* Base setup */
+:root {
+    font-size: 100%;
+}
+
+/* Set up a decent box model on the root element */
+html {
+    box-sizing: border-box;
+}
+
+/* Make all elements from the DOM inherit from the parent box-sizing
+   Since `*` has a specificity of 0, it does not override the `html` value
+   making all elements inheriting from the root box-sizing value
+   See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Use perfect fourth modular scale */
+body {
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.heading1 {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .heading1 {
+    font-size: 30px;
+  }
+}
+
+.logo {
+  width: 90px;
+  position: absolute;
+  border-radius: 3px;
+}
+
+.header {
+  background-color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.headerblock {
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__item {
+  padding-left: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: var(--black);
+}
+
+.heading--item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.heading--spacer {
+  vertical-align: text-top;
+}
+
+.blackbg {
+    background-color: black;
+    color: white;
+}
+
+.pair {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.para-group {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (min-width: 800px) {
+  .para-group {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.section-para {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 800px) {
+  .section-para {
+      max-width: 600px;
+      display: inline-block;
+  }
+}
+
+.text-para {
+  margin-bottom: 20px;
+}
+
+.image-text {
+  width: 100%;
+  padding: 10px;
+}
+
+@media (min-width: 800px) {
+  .image-text {
+    width: 50%;
+  }
+}
+
+.image--brendan {
+  background-image: url(brendan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.image-section {
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+  .image-section {
+    width: 50%;
+  }
+}
+
+.image--tasting {
+  background-image: url(tasting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.image--taps {
+  background-image: url(taps.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.hero {
+  background-image: url('bb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 800px) {
+  .hero {
+    top: 150px;
+  }
+}
+
+.panel-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .panel-section {
+    flex-direction: row;
+  }
+}
+
+.panel {
+  background-color: lightblue;
+  margin-bottom: 20px;
+  padding: 40px;
+  border-radius: 5px;
+  max-width: 350px;
+}
+
+.panel__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: var(--light-grey);
+  color: var(--black);
+  padding: 2rem 1rem 2rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 800px) {
+  .footer {
+    padding: 1rem;
+  }
+}
+
+.footer__contact {
+  width: 90%;
+  text-align: left;
+  order: -2;
+}
+
+@media (min-width: 800px) {
+  .footer__contact {
+    width: 60%;
+  }
+}
+
+.contact__list {
+  list-style-type: none;
+}
+
+.contact__item {
+  margin-bottom: 0.6rem;
+}
+
+.contact__item a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.footer__social {
+  width: 100%;
+  text-align: left;
+}
+
+@media (min-width: 800px) {
+  .footer__social {
+    width: 35%;
+  }
+}
+
+.footer__backtotop {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    font-size: 2em;
+}
+
+@media (min-width: 800px) {
+  .footer__backtotop {
+    order: 0;
+    font-size: 3em;
+  }
+}
+
+.backtotop {
+  font-size: 12px;
+  position: relative;
+  top: -5px;
+}
+
+.social__list {
+  list-style-type: none;
+}
+
+.social__item {
+   display: inline;
+   padding-right: 10px;
+}
+
+.footer__copyright {
+  width: 100%;
+  color: var(--dark-grey);
+}
+
+/* Style all font awesome icons */
+.fa--social {
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 23px;
+  border-radius: 5px;
+}
+
+.fa--backtotop {
+  text-align: center;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.fa--social:hover {
+  opacity: 0.7;
+}
+
+.fa--facebook {
+  color: #3B5998;
+}
+
+.fa--twitter {
+  color: #55ACEE;
+}
+
+.fa--linkedin {
+  color: #0077B5;
+}

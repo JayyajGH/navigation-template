@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<meta charset="UTF-8">
+		<title>Your Website</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+		<script src="https://code.jquery.com/jquery-3.2.1.js"
+					  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+						crossorigin="anonymous"></script>
+
+		<script src="my-script.js"></script>
+	</head>
+
+  <body>
+
+<!-- ************************************
+ ************************************
+  MAYBE USE GRID TO LAYOUT PAGE
+ ************************************
+ ************************************ -->
+
+  	<header class="headerblock" id="header">
+  		<nav class="nav">
+				<a href="/">
+					<img src="bbt.jpg" class="logo"/>
+				</a>
+        <ul class="nav__menu">
+				  <li class="nav__item nav--home"><a class="nav__link" href="/">Home</a></li>
+          <li class="nav__item nav--about"><a class="nav__link" href="#about">About</a></li>
+					<li class="nav__item nav--events"><a class="nav__link" href="#events">Events</a></li>
+          <li class="nav__item nav--contact"><a class="nav__link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+			<div class="hero">
+      </div>
+  	</header>
+
+  	<main class="wrapper" id="wrapper">
+      <section class="">
+          <h1 class="heading1">
+						<span class="heading--item">TAPROOM</span><span class="heading--spacer">.</span><span class="heading--item">BOTTLESHOP</span><span class="heading--spacer">.</span><span class="heading--item">EVENTS</span>
+					</h1>
+					<div class="para-group">
+						<p class="section-para">
+							Brendan's Brewtique is the culmination of our never ending search for great beer.
+						</p>
+						<p class="section-para">
+							We stock hundreds of different beers from across the UK, Europe and beyond.
+						</p>
+						<p class="section-para">
+							Additionally we have up to 5 different draught beers available at any one time.
+							You are free to enjoy any of our great beers and ciders on or off the premises.
+						</p>
+					</div>
+      </section>
+
+			<section class="blackbg pair" id="about">
+				<div class="image-section image--brendan"></div>
+				<div class="image-text">
+					<p class="text-para">
+						Bristol is very fortunate to have some of the best breweries in the country.  Unfortunately, Bristol has had a shortage of places where you can buy beer from breweries across Bristol, the UK, Europe and beyond - all under one roof.
+					</p>
+					<p class="text-para">
+						Brendan's Brewtique is the solution to this problem.
+					</p>
+				</div>
+			</section>
+
+			<section class="pair" id="events">
+				<div class="image-text">
+					<h2>Events</h2>
+					<p class="section-para">
+						We regularly hold tasting events with various breweries and beer experts.
+					</p>
+					<p class="section-para">
+						Our next one is belgian beer tasting with Mr. Belgian Beer
+					</p>
+				</div>
+				<div class="image-section image--tasting"></div>
+			</section>
+
+			<section class="pair blackbg">
+				<div class="image-section image--taps"></div>
+				<div class="image-text">
+					<h2>What's on tap?</h2>
+					<!--taplist.io	https://taplist.io/taplist-436469-->
+					<ul>
+						<li>
+							<h3>Umbral Abyss by Vibrant Forest</h3>
+							<p>11.5% Imperial Coffee Stout</p>
+						</li>
+						<li>
+							<h3>Steading rolling man by Deya</h3>
+							<p>5.2% American Pale Ale</p>
+						</li>
+						<li>
+							<h3>Even sharks need water by Verdant Brewing Co</h3>
+							<p>6.5% New England IPA</p>
+						</li>
+						<li>
+							<h3>Fields Forever by Tiny Rebel</h3>
+							<p>6.5% New England IPA</p>
+						</li>
+						<li>
+							<h3>Yellow Belly by Buxton Brewery</h3>
+							<p>11% Imperial Stout</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+    </main>
+
+		<footer class="footer wrapper">
+			<div class="footer__contact">
+				<h2 class="heading2">Contact Us</h2>
+				<address>
+					<ul class="contact__list">
+						<li class="contact__item"><a href="mailto:beer@brendansbrewtique.co.uk">beer@brendansbrewtique.co.uk</a></li>
+						<li class="contact__item"><a href="tel:+441179831836">0117 983 1836</a></li>
+						<li class="contact__item"><a href="https://goo.gl/maps/5EkRMn5m1p82" target="_blank">104-106 Queens Rd, Bristol BS8 1NF</a></li>
+					</ul>
+				</address>
+			</div>
+			<div class="footer__social u-padding-bottom--medium">
+				<h2 class="heading2">Social</h2>
+				<address>
+					<ul class="social__list">
+						<li class="social__item"><a href="//facebook.com/BrendansBrewtique" target="_blank" class="fab fa-facebook-square fa--social fa--facebook"></a></li>
+						<li class="social__item"><a href="//twitter.com/brendansbrewti2" target="_blank" class="fab fa-twitter-square fa--social fa--twitter"></a></li>
+						<li class="social__item"><a href="//instagram.com/brendansbrewtique" target="_blank" class="fab fa-instagram fa--social fa--instagram"></a></li>
+						<li class="social__item"><a href="//untappd.com/v/brendans-brewtique/8306452" target="_blank" class="fab fa-untappd fa--social fa--untappd"></a></li>
+					</ul>
+				</address>
+			</div>
+			<div class="footer__backtotop">
+				<a href="#header" class="fas fa-angle-up fa--backtotop"></a>
+				<span class="backtotop">Top</span>
+			</div>
+
+			<div class="footer__copyright">
+				<p class="small-text">Brendan's Brewtique is a company registered in the United Kingdom. Company number: 11421855.</p>
+				<p class="small-text">Site designed and developed by Stash74 © 2018</p>
+			</div>
+		</footer>
+  </body>
+
+</html>
