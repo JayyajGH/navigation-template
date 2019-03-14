@@ -45,6 +45,11 @@ body {
   text-align: center;
 }
 
+.heading2 {
+  font-size: 1.777rem;
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 800px) {
   .heading1 {
     font-size: 30px;
