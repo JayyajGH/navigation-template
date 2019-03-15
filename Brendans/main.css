@@ -98,6 +98,10 @@ body {
   color: var(--black);
 }
 
+.beverage {
+    margin-bottom: 10px;
+}
+
 .heading--item {
     padding-left: 10px;
     padding-right: 10px;
