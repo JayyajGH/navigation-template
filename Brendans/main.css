@@ -84,7 +84,23 @@ body {
 }
 
 .nav__item {
-  padding-left: 20px;
+  padding-left: 10px;
+}
+
+@media (min-width: 800px) {
+  .nav__item {
+    padding-left: 20px;
+  }
+}
+
+.nav__item--home {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .nav__item--home {
+    display: block;
+  }
 }
 
 .nav__link {
@@ -180,17 +196,31 @@ body {
 }
 
 .image--tasting {
-  background-image: url(tasting.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .image--tasting {
+    background-image: url(tasting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: block;
+  }
 }
 
 .image--taps {
-  background-image: url(taps.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .image--taps {
+    background-image: url(taps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: block;
+  }
 }
 
 .hero {
