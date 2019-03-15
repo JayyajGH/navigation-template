@@ -128,19 +128,30 @@ body {
 }
 
 .blackbg {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .pair {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .contact__section {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.map {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .map {
+      width: 400px;
+      height: 400px;
+  }
 }
 
 .para-group {

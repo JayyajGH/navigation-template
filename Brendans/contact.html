@@ -38,7 +38,7 @@
 
     <main class="wrapper" id="wrapper">
       <section class="contact__section">
-        <h2 class="header2">Say Hi!</h2>
+        <h2 class="heading2">Say Hi!</h2>
         <address>
           <div>
             <a href="mailto:beer@brendansbrewtique.co.uk">beer@brendansbrewtique.co.uk</a>
@@ -50,7 +50,7 @@
       </section>
 
       <section class="contact__section">
-        <h2>When can you buy beer?</h2>
+        <h2 class="heading2">When can you buy beer?</h2>
         <table>
           <tr>
             <td>Mon-Fri</td>
@@ -68,32 +68,38 @@
       </section>
 
       <section class="contact__section">
-        <h2>How to find us</h2>
+        <h2 class="heading2">How to find us</h2>
         <address>
           <p>104-106 Queens Rd, Bristol BS8 1NF</p>
-          <iframe src="https://www.google.com/maps?q=104-106+Queens+road%0AClifton%0ABristol%0ABS8+1NF&output=embed&hl=en-GB&z=14" width="500" height="400" frameborder="0"></iframe>
+          <iframe class="map" src="https://www.google.com/maps?q=104-106+Queens+road%0AClifton%0ABristol%0ABS8+1NF&output=embed&hl=en-GB&z=14" frameborder="0"></iframe>
         </address>
       </section>
 
       <section class="contact__section">
         <form>
           <fieldset>
-              <legend>Send us a message</legend>
+              <legend><h2 class="heading2">Send us a message</h2></legend>
           </fieldset>
 
           <div>
-            <label for="name">Name:</label>
-            <input id="name" type="text">
+            <label for="name">Name</label>
+            <div>
+              <input id="name" type="text">
+            </div>
           </div>
 
           <div>
-            <label for="email">Email:</label>
-            <input id="email" type="text">
+            <label for="email">Email</label>
+            <div>
+              <input id="email" type="text">
+            </div>
           </div>
 
           <div>
-            <label for="message">Message:</label>
-            <input id="message" type="text">
+            <label for="message">Message</label>
+            <div>
+              <input id="message" type="text">
+            </div>
           </div>
 
           <input type="submit" value="send request" />
