@@ -143,13 +143,22 @@ body {
   margin-bottom: 20px;
 }
 
+.contact__opening {
+    background-color: black;
+    color: white;
+}
+
+.contact__newsletter {
+    background-color: black;
+    color: white;
+}
+
 .map {
   width: 100%;
 }
 
 @media (min-width: 800px) {
   .map {
-      width: 400px;
       height: 400px;
   }
 }
@@ -398,6 +407,79 @@ body {
   color: #C36F26;
 }
 
-.textarea {
+.emailus {
+  text-decoration: none;
+}
+
+.phoneus {
+  text-decoration: none;
+}
+
+.findus {
+  text-decoration: none;
+}
+
+.contact__us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact_details {
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+  .contact_details {
+      width: 50%;
+  }
+}
+
+.contact_map {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .contact_map {
+    width: 50%;
+  }
+}
+
+.contact__form {
+  width: 40%;
+}
+
+.contact__element {
+    margin-bottom: 20px;
+}
+
+.contact__field {
+  padding: 10px;
+}
+
+.contact__name {
+  width: 100%;
+}
+
+.contact__email {
+  width: 100%;
+}
+
+.contact__message {
   resize: none;
+  width: 100%;
+}
+
+.contact__CTA {
+  width: 100%;
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+.contact__CTA:hover {
+  background-color: #2698ff;
 }
