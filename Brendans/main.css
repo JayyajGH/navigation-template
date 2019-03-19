@@ -141,6 +141,7 @@ body {
 
 .contact__section {
   margin-bottom: 20px;
+  padding: 10px;
 }
 
 .contact__opening {
@@ -407,18 +408,6 @@ body {
   color: #C36F26;
 }
 
-.emailus {
-  text-decoration: none;
-}
-
-.phoneus {
-  text-decoration: none;
-}
-
-.findus {
-  text-decoration: none;
-}
-
 .contact__us {
     display: flex;
     flex-wrap: wrap;
@@ -446,28 +435,26 @@ body {
 }
 
 .contact__form {
-  width: 40%;
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .contact__form {
+    width: 40%;
+  }
 }
 
 .contact__element {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contact__field {
   padding: 10px;
-}
-
-.contact__name {
-  width: 100%;
-}
-
-.contact__email {
   width: 100%;
 }
 
 .contact__message {
   resize: none;
-  width: 100%;
 }
 
 .contact__CTA {

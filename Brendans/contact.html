@@ -43,12 +43,12 @@
           <h2 class="heading2">Say Hi!</h2>
           <address>
             <div>
-              <a href="mailto:beer@brendansbrewtique.co.uk" class="emailus">beer@brendansbrewtique.co.uk</a>
+              <a href="mailto:beer@brendansbrewtique.co.uk">beer@brendansbrewtique.co.uk</a>
             </div>
             <div>
-              <a href="tel:+441179831836" class="phoneus">0117 983 1836</a>
+              <a href="tel:+441179831836">0117 983 1836</a>
             </div>
-              <a href="https://goo.gl/maps/5EkRMn5m1p82" target="_blank" class="findus">104-106 Queens Rd, Bristol BS8 1NF</a>
+              <a href="https://goo.gl/maps/5EkRMn5m1p82" target="_blank">104-106 Queens Rd, Bristol BS8 1NF</a>
           </address>
         </section>
 
@@ -85,14 +85,14 @@
           <div class="contact__element">
             <label for="name">Name</label>
             <div>
-              <input id="name" class="contact__field contact__name" type="text" minlength="1" maxlength="20" required>
+              <input id="name" class="contact__field" type="text" minlength="1" maxlength="20" required>
             </div>
           </div>
 
           <div class="contact__element">
             <label for="email">Email</label>
             <div>
-              <input id="email" class="contact__field contact__email" type="email" minlength="1" maxlength="50" required>
+              <input id="email" class="contact__field" type="email" minlength="1" maxlength="50" required>
             </div>
           </div>
 
@@ -102,10 +102,13 @@
               <textarea id="message" class="contact__field contact__message" rows="5" cols="20" maxlength="500" required></textarea>
             </div>
           </div>
-            TODO: Add google recapture v3 to protect form
-            TODO: On submit, hide form and replace with Thank you message
           <input type="submit" class="contact__CTA" value="Send Message" />
+          TODO: Add google recapture v3 to protect form
+          TODO: On submit, hide form and replace with Thank you message
         </form>
+        <div style="display: none">
+          Thank you for your message.  We'll be in touch shortly
+        </div>
       </section>
 
       <section class="contact__section contact__newsletter">
