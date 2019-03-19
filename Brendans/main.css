@@ -397,3 +397,7 @@ body {
 .fa--untappd {
   color: #C36F26;
 }
+
+.textarea {
+  resize: none;
+}

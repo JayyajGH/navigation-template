@@ -84,21 +84,21 @@
           <div>
             <label for="name">Name</label>
             <div>
-              <input id="name" type="text">
+              <input id="name" type="text" minlength="1" maxlength="20" required>
             </div>
           </div>
 
           <div>
             <label for="email">Email</label>
             <div>
-              <input id="email" type="text">
+              <input id="email" type="email" minlength="1" maxlength="50" required>
             </div>
           </div>
 
           <div>
             <label for="message">Message</label>
             <div>
-              <input id="message" type="text">
+              <textarea id="message" class="textarea" rows="5" cols="20" maxlength="500" required></textarea>
             </div>
           </div>
 
@@ -112,6 +112,39 @@
         Sign up to newsletter by clicking <a href="https://brendansbrewtique.us19.list-manage.com/subscribe?u=704d66e0eb5901577a660513a&id=35a1020e2a">here</a>
       </section>
     </main>
+
+    <footer class="footer wrapper">
+      <div class="footer__contact">
+        <h2 class="heading2">Contact Us</h2>
+        <address>
+          <ul class="contact__list">
+            <li class="contact__item"><a href="mailto:beer@brendansbrewtique.co.uk">beer@brendansbrewtique.co.uk</a></li>
+            <li class="contact__item"><a href="tel:+441179831836">0117 983 1836</a></li>
+            <li class="contact__item"><a href="https://goo.gl/maps/5EkRMn5m1p82" target="_blank">104-106 Queens Rd, Bristol BS8 1NF</a></li>
+          </ul>
+        </address>
+      </div>
+      <div class="footer__social u-padding-bottom--medium">
+        <h2 class="heading2">Social</h2>
+        <address>
+          <ul class="social__list">
+            <li class="social__item"><a href="//facebook.com/BrendansBrewtique" target="_blank" class="fab fa-facebook-square fa--social fa--facebook"></a></li>
+            <li class="social__item"><a href="//twitter.com/brendansbrewti2" target="_blank" class="fab fa-twitter-square fa--social fa--twitter"></a></li>
+            <li class="social__item"><a href="//instagram.com/brendansbrewtique" target="_blank" class="fab fa-instagram fa--social fa--instagram"></a></li>
+            <li class="social__item"><a href="//untappd.com/v/brendans-brewtique/8306452" target="_blank" class="fab fa-untappd fa--social fa--untappd"></a></li>
+          </ul>
+        </address>
+      </div>
+      <div class="footer__backtotop">
+        <a href="#header" class="fas fa-angle-up fa--backtotop"></a>
+        <span class="backtotop">Top</span>
+      </div>
+
+      <div class="footer__copyright">
+        <p class="small-text">Brendan's Brewtique is a company registered in the United Kingdom. Company number: 11421855.</p>
+        <p class="small-text">Site designed and developed by Stash74 © 2018</p>
+      </div>
+    </footer>
 
   </body>
 </html>
