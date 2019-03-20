@@ -295,13 +295,14 @@ body {
   background-image: url('bb.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 350px;
+  min-height: 250px;
   margin-bottom: 2rem;
 }
 
 @media (min-width: 800px) {
   .hero {
     top: 150px;
+    min-height: 350px;
   }
 }
 
@@ -323,6 +324,17 @@ body {
   padding: 40px;
   border-radius: 5px;
   max-width: 350px;
+}
+
+.cta {
+  background-color: #1E90FF;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.cta:hover {
+  background-color: #2698ff;
 }
 
 .footer {
@@ -491,6 +503,7 @@ body {
 .contact__field {
   padding: 10px;
   width: 100%;
+  font-size: 1rem;
 }
 
 .contact__message {
@@ -503,6 +516,7 @@ body {
   color: white;
   border: none;
   padding: 10px;
+  font-size: 1rem;
   font-weight: 700;
   border-radius: 2px;
 }
