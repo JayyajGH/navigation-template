@@ -130,7 +130,8 @@ body {
 
 .nav__link:hover {
   color: var(--black);
-  text-decoration: overline;
+  border-top: 2px solid black;
+  padding-top: 2px;
 }
 
 .beverage {
