@@ -368,9 +368,8 @@ body {
   margin-bottom: 0.6rem;
 }
 
-.contact__item a {
-    color: var(--black);
-    text-decoration: none;
+.content-item__anchor {
+  color: var(--dark-grey);
 }
 
 .footer__social {
