@@ -28,7 +28,7 @@ html {
 
 /* Use perfect fourth modular scale */
 body {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   color: #70686b;
