@@ -91,6 +91,10 @@ body {
   padding: 10px;
 }
 
+.on-tap {
+  list-style: none;
+}
+
 .nav__menu {
   display: flex;
   flex-direction: row;
