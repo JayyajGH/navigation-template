@@ -46,13 +46,24 @@ body {
 }
 
 .heading1 {
-  font-size: 2rem;
+  font-size: 1.1rem;
   margin-bottom: 2rem;
   text-align: center;
 }
 
+@media (min-width: 800px) {
+  .heading1 {
+    font-size: 2rem;
+  }
+}
+
 .heading2 {
   font-size: 1.777rem;
+  margin-bottom: 1rem;
+}
+
+.heading3 {
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
@@ -123,9 +134,15 @@ body {
 .nav__link {
   text-decoration: none;
   color: var(--grey);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   transition: 0.3s;
+}
+
+@media (min-width: 800px) {
+  .nav__link {
+    font-size: 1.2rem;
+  }
 }
 
 .nav__link:hover {
