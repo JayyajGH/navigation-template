@@ -56,6 +56,16 @@ body {
   }
 }
 
+.small-text {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.smallest-text {
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
 .logo {
   width: 90px;
   position: absolute;
@@ -128,7 +138,7 @@ body {
 }
 
 .blackbg {
-  background-color: black;
+  background-color: #70686b;
   color: white;
 }
 
@@ -139,19 +149,25 @@ body {
   margin-bottom: 20px;
 }
 
+.contact__thingy {
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+  .contact__thingy {
+      width: 50%;
+  }
+}
+
 .contact__section {
   margin-bottom: 20px;
   padding: 10px;
 }
 
 .contact__opening {
-    background-color: black;
-    color: white;
 }
 
 .contact__newsletter {
-    background-color: black;
-    color: white;
 }
 
 .map {
@@ -408,19 +424,29 @@ body {
   color: #C36F26;
 }
 
+.contact-link__container {
+  margin-bottom: 10px;
+}
+
+.contact__link {
+  color: black;
+}
+
+.contact__link:hover {
+  color: blue;
+}
+
 .contact__us {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .contact_details {
-    width: 100%;
 }
 
 @media (min-width: 800px) {
   .contact_details {
-      width: 50%;
   }
 }
 
