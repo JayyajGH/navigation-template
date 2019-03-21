@@ -515,7 +515,8 @@ body {
 .contact__thankyou {
     background-color: var(--grey);
     color: white;
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
  .opening__day {
