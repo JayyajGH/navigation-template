@@ -191,20 +191,9 @@ body {
   padding: 10px;
 }
 
-.contact__opening {
-}
-
-.contact__newsletter {
-}
-
 .map {
   width: 100%;
-}
-
-@media (min-width: 800px) {
-  .map {
-      height: 400px;
-  }
+  height: 400px;
 }
 
 .para-group {
@@ -465,14 +454,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.contact_details {
-}
-
-@media (min-width: 800px) {
-  .contact_details {
-  }
 }
 
 .contact_map {
