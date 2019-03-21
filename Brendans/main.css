@@ -523,3 +523,9 @@ body {
 .contact__CTA:hover {
   background-color: #2698ff;
 }
+
+.contact__thankyou {
+    background-color: var(--grey);
+    color: white;
+    padding: 10px;
+}
