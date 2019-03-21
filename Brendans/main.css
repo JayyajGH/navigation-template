@@ -351,6 +351,7 @@ body {
   width: 90%;
   text-align: left;
   order: -2;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 800px) {
