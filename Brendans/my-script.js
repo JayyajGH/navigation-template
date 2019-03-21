@@ -1,7 +1,7 @@
 $(function() {
-  $('#js-contact-form').on('submit', function () {
+  $('#js-contact-form').submit(function (event) {
     $('#js-contact-form').hide();
     $('#js-contact-thankyou').show();
-    return false;
+    event.preventDefault();
   });
 });
