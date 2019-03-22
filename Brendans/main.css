@@ -516,3 +516,21 @@ body {
  .opening__day {
    padding-right: 10px;
  }
+
+ /* NB: This will be hidden from view but still be available to screenreaders
+  http://webaim.org/techniques/css/invisiblecontent/ */
+ .u-hidden-visually {
+     position: absolute;
+     left: -10000px;
+     top: auto;
+     width: 1px !important;
+     height: 1px !important;
+     overflow: hidden;
+ }
+
+ .u-hidden-visually:focus {
+   position:static;
+   width:auto;
+   height:auto;
+ }
+ 
