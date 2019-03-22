@@ -395,11 +395,9 @@ body {
 
 /* Style all font awesome icons */
 .fa--social {
-  padding: 5px;
   font-size: 2rem;
   text-align: center;
   text-decoration: none;
-  width: 23px;
   border-radius: 5px;
 }
 
@@ -533,4 +531,3 @@ body {
    width:auto;
    height:auto;
  }
- 
