@@ -304,35 +304,15 @@ body {
   }
 }
 
-.panel-section {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-@media (min-width: 800px) {
-  .panel-section {
-    flex-direction: row;
-  }
-}
-
-.panel {
-  background-color: lightblue;
-  margin-bottom: 2rem;
-  padding: 40px;
-  border-radius: 5px;
-  max-width: 350px;
-}
-
 .cta {
-  background-color: #1E90FF;
+  background-color: #DF871B;
   color: white;
   padding: 10px;
   font-weight: 600;
 }
 
 .cta:hover {
-  background-color: #2698ff;
+  background-color: #C87918;
 }
 
 .footer {
