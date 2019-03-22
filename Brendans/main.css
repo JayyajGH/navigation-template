@@ -373,6 +373,7 @@ body {
 .footer__social {
   width: 100%;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 800px) {
