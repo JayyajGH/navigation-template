@@ -89,6 +89,8 @@ body {
   width: 90px;
   position: absolute;
   border-radius: 3px;
+  padding: 5px;
+  background-color: white;
 }
 
 .header {
