@@ -86,6 +86,26 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.contact__link-fw {
+  font-weight: 700;
+}
+
+.cta-fw {
+  font-weight: 600;
+}
+
+.nav__link-fw {
+  font-weight: 600;
+}
+
+.newsletter__link-fw {
+  font-weight: 700;
+}
+
+.contact__CTA-fw {
+  font-weight: 700;
+}
+
 .logo {
   width: 90px;
   position: absolute;
@@ -138,7 +158,6 @@ body {
   text-decoration: none;
   color: var(--grey);
   font-size: 1rem;
-  font-weight: 600;
   transition: 0.3s;
 }
 
@@ -308,7 +327,6 @@ body {
   background-color: #DF871B;
   color: white;
   padding: 10px;
-  font-weight: 600;
 }
 
 .cta:hover {
@@ -429,7 +447,6 @@ body {
 
 .newsletter__link {
   color: var(--orange);
-  font-weight: 700;
 }
 
 .newsletter__link:hover {
@@ -442,7 +459,6 @@ body {
 
 .contact__link {
   color: var(--orange);
-  font-weight: 700;
 }
 
 .contact__link:hover {
@@ -496,7 +512,6 @@ body {
   border: none;
   padding: 10px;
   font-size: 1rem;
-  font-weight: 700;
   border-radius: 2px;
 }
 
