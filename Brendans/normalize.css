@@ -56,6 +56,7 @@ table {
 
 input, select {
  vertical-align:middle;
+ font-size: 100%;
 }
 
 address {

@@ -13,12 +13,12 @@
 
 /* Base setup */
 :root {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 /* Set up a decent box model on the root element */
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Make all elements from the DOM inherit from the parent box-sizing
@@ -502,7 +502,6 @@ body {
 .contact__field {
   padding: 10px;
   width: 100%;
-  font-size: 1rem;
 }
 
 .contact__message {
