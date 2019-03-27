@@ -31,7 +31,6 @@ html {
   box-sizing: inherit;
 }
 
-/* Use perfect fourth modular scale */
 body {
   font-family: 'PT Sans', sans-serif;
   font-size: 1rem;
@@ -241,20 +240,8 @@ body {
 .para-group {
   margin-left: 10px;
   margin-right: 10px;
-}
-
-@media (min-width: 800px) {
-  .para-group {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-@media (min-width: 800px) {
-  .section-para {
-    max-width: 600px;
-    display: inline-block;
-  }
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .image-text {
