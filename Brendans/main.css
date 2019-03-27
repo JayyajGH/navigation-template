@@ -39,16 +39,47 @@ body {
   color: var(--grey-base);
 }
 
+/* Margins */
 .u-margin-bottom--small {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem !important;
 }
 
 .u-margin-bottom--medium {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
 }
 
 .u-margin-bottom--large {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
+}
+
+/* Align inline content */
+.u-align--left {
+  text-align: left !important;
+}
+
+.u-align--right {
+  text-align: right !important;
+}
+
+.u-align--center {
+  text-align: center !important;
+}
+
+/* NB: This will be hidden from view but still be available to screenreaders
+ http://webaim.org/techniques/css/invisiblecontent/ */
+.u-hidden-visually {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden;
+}
+
+.u-hidden-visually:focus {
+  position: static;
+  width: auto;
+  height: auto;
 }
 
 .heading1 {
@@ -163,8 +194,8 @@ body {
 }
 
 .heading--item {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .heading--spacer {
@@ -183,12 +214,12 @@ body {
 }
 
 .contact__thingy {
-    width: 100%;
+  width: 100%;
 }
 
 @media (min-width: 800px) {
   .contact__thingy {
-      width: 50%;
+    width: 50%;
   }
 }
 
@@ -208,9 +239,8 @@ body {
 }
 
 .para-group {
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (min-width: 800px) {
@@ -222,8 +252,8 @@ body {
 
 @media (min-width: 800px) {
   .section-para {
-      max-width: 600px;
-      display: inline-block;
+    max-width: 600px;
+    display: inline-block;
   }
 }
 
@@ -246,7 +276,7 @@ body {
 }
 
 .image-section {
-    width: 100%;
+  width: 100%;
 }
 
 @media (min-width: 800px) {
@@ -311,7 +341,6 @@ body {
   background-color: var(--grey-light);
   color: var(--black);
   padding: 2rem 1rem 2rem 1rem;
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -324,7 +353,6 @@ body {
 
 .footer__contact {
   width: 90%;
-  text-align: left;
   order: -2;
 }
 
@@ -340,7 +368,6 @@ body {
 
 .footer__social {
   width: 100%;
-  text-align: left;
 }
 
 @media (min-width: 800px) {
@@ -350,10 +377,10 @@ body {
 }
 
 .footer__backtotop {
-    display: flex;
-    flex-direction: column;
-    order: -1;
-    font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  order: -1;
+  font-size: 2em;
 }
 
 @media (min-width: 800px) {
@@ -370,8 +397,8 @@ body {
 }
 
 .social__item {
-   display: inline;
-   padding-right: 10px;
+  display: inline;
+  padding-right: 10px;
 }
 
 .footer__copyright {
@@ -388,7 +415,6 @@ body {
 }
 
 .fa--backtotop {
-  text-align: center;
   text-decoration: none;
   color: var(--black);
 }
@@ -478,29 +504,11 @@ body {
 }
 
 .contact__thankyou {
-    background-color: var(--grey-base);
-    color: var(--white);
-    padding: 20px;
-    text-align: center;
+  background-color: var(--grey-base);
+  color: var(--white);
+  padding: 20px;
 }
 
  .opening__day {
    padding-right: 10px;
- }
-
- /* NB: This will be hidden from view but still be available to screenreaders
-  http://webaim.org/techniques/css/invisiblecontent/ */
- .u-hidden-visually {
-     position: absolute;
-     left: -10000px;
-     top: auto;
-     width: 1px !important;
-     height: 1px !important;
-     overflow: hidden;
- }
-
- .u-hidden-visually:focus {
-   position:static;
-   width:auto;
-   height:auto;
  }
