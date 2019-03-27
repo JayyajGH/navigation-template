@@ -220,10 +220,6 @@ body {
   }
 }
 
-.section-para {
-  padding-bottom: 20px;
-}
-
 @media (min-width: 800px) {
   .section-para {
       max-width: 600px;
