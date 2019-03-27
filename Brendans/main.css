@@ -353,6 +353,10 @@ body {
   color: var(--grey-dark);
 }
 
+.content-item__anchor:hover {
+  text-decoration: underline;
+}
+
 .footer__social {
   width: 100%;
 }
