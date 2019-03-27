@@ -390,6 +390,7 @@ body {
 
 .backtotop {
   font-size: 0.8rem;
+  display: block;
   position: relative;
   top: -5px;
 }
