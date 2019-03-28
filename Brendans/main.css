@@ -1,4 +1,7 @@
+/* Base setup */
 :root {
+  font-size: 100%;
+
   --white: #FFF;
   --black: #000;
 
@@ -9,11 +12,6 @@
   --orange-base: #DF871B;
   --orange-dark: #C87918;
   --orange-darker: #A76514;
-}
-
-/* Base setup */
-:root {
-  font-size: 100%;
 }
 
 /* Set up a decent box model on the root element */
