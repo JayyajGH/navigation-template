@@ -305,7 +305,7 @@ body {
 }
 
 .hero {
-  background-image: url('bb.jpg');
+  background-image: url('bb-small.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 250px;
@@ -313,6 +313,7 @@ body {
 
 @media (min-width: 800px) {
   .hero {
+    background-image: url('bb.jpg');
     top: 150px;
     min-height: 350px;
   }
