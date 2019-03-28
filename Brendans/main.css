@@ -9,9 +9,8 @@
   --grey-base: #70686b;
   --grey-dark: #3E3E3E;
 
-  --orange-base: #DF871B;
-  --orange-dark: #C87918;
-  --orange-darker: #A76514;
+  --orange-base: #C87918;
+  --orange-dark: #A76514;
 }
 
 /* Set up a decent box model on the root element */
@@ -427,7 +426,7 @@ body {
 }
 
 .newsletter__link {
-  color: var(--orange-darker);
+  color: var(--orange-dark);
 }
 
 .newsletter__link:hover {
@@ -435,7 +434,7 @@ body {
 }
 
 .contact__link {
-  color: var(--orange-darker);
+  color: var(--orange-dark);
 }
 
 .contact__link:hover {
