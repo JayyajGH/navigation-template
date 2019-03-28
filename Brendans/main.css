@@ -319,6 +319,12 @@ body {
   }
 }
 
+@media (min-width: 2000px) {
+  .hero {
+    background-image: url('bb-large.jpg');
+  }
+}
+
 .footer {
   background-color: var(--grey-light);
   color: var(--black);
