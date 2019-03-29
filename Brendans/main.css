@@ -305,7 +305,7 @@ body {
 }
 
 .hero {
-  background-image: url('bb-small.jpg');
+  background-image: url('masthead.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 250px;
@@ -313,7 +313,7 @@ body {
 
 @media (min-width: 50em) {
   .hero {
-    background-image: url('bb.jpg');
+    background-image: url('masthead-medium.jpg');
     top: 150px;
     min-height: 350px;
   }
@@ -321,7 +321,7 @@ body {
 
 @media (min-width: 125em) {
   .hero {
-    background-image: url('bb-large.jpg');
+    background-image: url('masthead-large.jpg');
   }
 }
 
