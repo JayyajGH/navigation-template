@@ -198,23 +198,23 @@ body {
   vertical-align: text-top;
 }
 
-.background--dark {
-  background-color: var(--grey-base);
-  color: var(--white);
-}
-
 .pair {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.contact__thingy {
+.pair--dark {
+  background-color: var(--grey-base);
+  color: var(--white);
+}
+
+.contact-details__info {
   width: 100%;
 }
 
 @media (min-width: 50em) {
-  .contact__thingy {
+  .contact-details__info {
     width: 50%;
   }
 }
@@ -448,18 +448,19 @@ body {
   text-decoration: underline;
 }
 
-.contact__us {
+.contact__details {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.contact_map {
+.contact-details__map {
   width: 100%;
+  padding: 10px;
 }
 
 @media (min-width: 50em) {
-  .contact_map {
+  .contact-details__map {
     width: 50%;
   }
 }
