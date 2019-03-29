@@ -319,7 +319,7 @@ body {
   }
 }
 
-@media (min-width: 125em) {
+@media (min-width: 93.75em) {
   .hero {
     background-image: url('masthead-large.jpg');
   }
