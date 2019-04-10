@@ -382,11 +382,21 @@ body {
   }
 }
 
-.backtotop {
+.backtotop__text {
   font-size: 0.8rem;
   display: block;
   position: relative;
-  top: -5px;
+  top: 23px;
+}
+
+.backtotop__icon {
+  text-decoration: none;
+  color: var(--black);
+  background: url(chevron-arrow-up.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px
 }
 
 .social__item {
@@ -405,11 +415,6 @@ body {
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
-}
-
-.fa--backtotop {
-  text-decoration: none;
-  color: var(--black);
 }
 
 .fa--social:hover {
