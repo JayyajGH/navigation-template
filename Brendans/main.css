@@ -416,20 +416,27 @@ body {
   opacity: 0.7;
 }
 
-.fa--facebook {
-  color: #3B5998;
+.social__logo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
 }
 
-.fa--twitter {
-  color: #55ACEE;
+.facebook__logo {
+  background: url(facebook-logo.svg);
 }
 
-.fa--instagram {
-  color: #B633AA;
+.twitter__logo {
+  background: url(twitter-logo.svg);
 }
 
-.fa--untappd {
-  color: #C36F26;
+.instagram__logo {
+  background: url(instagram-logo.svg);
+}
+
+.untappd__logo {
+  background: url(untappd-logo.svg);
+  background-size: contain;
 }
 
 .newsletter__link {
